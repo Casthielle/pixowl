@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    height: 50px;
+    background-color: #151619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width: 600px) {
+      justify-content: flex-end;
+    }
+
+    .logo {
+      display: flex;
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      .voxedit-logo {
+          width: 72px;
+          margin-top: 20px;
+      }
+
+      .title {
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        margin: 0;
+        color: #505052;
+        font-family: PixowlFontBold;
+        font-size: 20px;
+        @media(max-width: 600px) {
+          font-size: 15px;
+          align-items: center;
+        }
+      }
+    }
+
+    .download-button {
+      background-color: #3abeef;
+      color: white;
+      font-family: PixowlFontBold;
+      font-size: 20px;
+      padding: 0 15px;
+      border: none;
+      height: 36px;
+      border-radius: 10px;
+
+      @media(max-width: 600px) {
+        margin-right: 5px;
+        font-size: 15px;
+      }
+    }
+
+    .logo-wrapper {
+      text-align: center;
+      background-color: #151619;
+      height: 100px;
+      width: 100px;
+      clip-path: polygon(50px 100px, 100% 50px, 50px 0px, 0px 50px);
+    }
+}

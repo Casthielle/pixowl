@@ -1,0 +1,46 @@
+<div class="body">
+  <section class="section">
+    <img src="../../assets/Editor-banner1.png" class="banner" alt="banner">
+    <div class="sticked">
+      <vue-typed-js
+        :strings="strings"
+        :loop="true"
+        :typeSpeed="100"
+        :showCursor="false"
+        :fadeOutDelay="3000">
+        <h3 class="title typing"></h3>
+      </vue-typed-js>
+      <p class="subtitle">
+        VoxEditor is the first software that allows you to create your own voxel models, 
+        rig them and animate them in no time
+      </p>
+    </div>
+  </section>
+
+
+  <section class="section --inline --light --cliped">
+    <img
+      src="../../assets/banner2.png"
+      class="image"
+      alt="banner"
+      data-aos="fade-right">
+    <Article
+      :title="first.title"
+      :description="first.description"
+      :features="first.features"
+      data-aos="fade-left" />
+  </section>
+
+  <section class="section --inline">
+    <Article
+      :title="second.title"
+      :description="second.description"
+      :features="second.features"
+      data-aos="fade-right" />
+    <img
+      src="../../assets/banner3.png"
+      class="image"
+      alt="banner"
+      data-aos="fade-left" >
+  </section>
+</div>

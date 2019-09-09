@@ -1,0 +1,46 @@
+.article {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: PixowlFont;
+  width: 350px;
+  padding: 10px;
+
+  @media(max-width: 600px) {
+    width: calc(100% - 80px);
+    padding: 40px;
+  }
+
+  .title {
+    text-align: left;
+    margin: 10px 0;
+  }
+
+  .description {
+    color: #b2b5b7;
+    margin: 0 0 30px 0;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .features {
+    h4 {
+      color: #fe6b20;
+      font-size: 14px;
+      font-family: PixowlFontBold;
+      text-align: left;
+      margin: 0;
+    }
+
+    ul {
+      padding-inline-start: 20px;
+      margin: 5px 0;
+
+      li {
+        text-align: left;
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
