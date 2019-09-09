@@ -6,7 +6,7 @@
   width: 350px;
   padding: 10px;
 
-  @media(max-width: 600px) {
+  @media(max-width: 800px) {
     width: calc(100% - 80px);
     padding: 40px;
   }

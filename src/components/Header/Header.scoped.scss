@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
 
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
       justify-content: flex-end;
     }
 
@@ -31,7 +31,7 @@
         color: #505052;
         font-family: PixowlFontBold;
         font-size: 20px;
-        @media(max-width: 600px) {
+        @media(max-width: 800px) {
           font-size: 15px;
           align-items: center;
         }
@@ -48,7 +48,7 @@
       height: 36px;
       border-radius: 10px;
 
-      @media(max-width: 600px) {
+      @media(max-width: 800px) {
         margin-right: 5px;
         font-size: 15px;
       }
