@@ -37,12 +37,16 @@
     font-weight: bold;
     min-height: 90px;
     margin: 10px 0 0 0;
-    background: -webkit-linear-gradient(#ff9326, #fe6b20);
+    padding: 0;
+    background: linear-gradient(#ff9326, #fe6b20);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
     @media(max-width: 800px) {
       font-size: 50px;
+      background: transparent;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: #ff9326;
     }
   }
 
